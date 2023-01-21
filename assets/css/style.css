@@ -148,3 +148,15 @@ width: 100px;
 .page-header h2 {
     margin-top: 0;
 }
+/* form */
+
+
+.form-section {
+    clear: both;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    background-image: url('https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg');
+}
+
+/*end form*/

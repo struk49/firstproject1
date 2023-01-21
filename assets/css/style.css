@@ -8,7 +8,30 @@ body {
     background-color: grey;
     color: white;
 }
+.form-container
+{
+    height:100vh;
+    color: white;
+    background: url("https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    position: relative;
+
+}
+.form-group
+{
+   height:100px;
+   width:200px; 
+   color:white;
+   font-size: large;
+}
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;

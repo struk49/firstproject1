@@ -4,8 +4,6 @@ body {
 }
 /* Containers */
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: grey;
     color: white;
@@ -34,15 +32,6 @@ body {
 
 }
    
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
@@ -125,16 +114,16 @@ width: 100px;
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: peru;
+    border-color: peru;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    background-color:purple;
+    border-color: purple;
     color: white;
 }
 /* Page Headers */
@@ -148,15 +137,3 @@ width: 100px;
 .page-header h2 {
     margin-top: 0;
 }
-/* form */
-
-
-.form-section {
-    clear: both;
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    background-image: url('https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg');
-}
-
-/*end form*/

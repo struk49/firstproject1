@@ -1,30 +1,73 @@
 body {
     background-color: black;
     font-family: Oxygen, sans-serif;
+    color: white;
+
 }
 /* Containers */
-
-.container-wrapper--red {
-    background-color: grey;
-    color: white;
-}
 .form-container
 {
-    height:100vh;
-    color: white;
-    background: url("https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60") no-repeat center center;
+    height: 100vh;
+
+    background: url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 
     position: relative;
-
 }
+/* navigation links */
+
+#menu{
+    font-size: 110%;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+#menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.form {
+        clear: left;
+       
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+    }
+    
+    .form > h2
+    {
+        color:#fafafa;
+        margin-bottom: 20px;
+    }
+    
+.container-wrapper--red {
+    background-color: grey;
+    color: white;
+}
+.form-container
+
+    
+
+
 .form-group
 {
    height:100px;

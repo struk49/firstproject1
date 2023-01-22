@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family: Oxygen, sans-serif;
-    color: white;
+    color: #fff;
 
 }
 /* Containers */
@@ -53,7 +53,7 @@ body {
         height: 900px;
     }
     
-    .form > h2
+    .form 
     {
         color:#fafafa;
         margin-bottom: 20px;
@@ -61,7 +61,7 @@ body {
     
 .container-wrapper--red {
     background-color: black;
-    color: white;
+
 }
 .form-container
 
@@ -72,7 +72,6 @@ body {
 {
    height:100px;
    width:200px; 
-   color:white;
    font-size: large;
 }
 .alert-container .col-12 {
@@ -114,12 +113,7 @@ body {
     padding-right: 0;
 }
 
-.navbar {
-    margin-bottom: 0;
-    width: 100%;
-    background-color: rgba(244, 7, 7, 0.25);
-    border: 0;
-}
+
 
 .navbar .navbar-toggler {
     border: 0;
@@ -140,18 +134,15 @@ body {
     background-color: transparent;
 }
 
-.jumbotron h1 {
-    color: white;
+.jumbotron  {
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
 }
 .blockquote p 
 {
-    color:white;
+    
 }
-.quotes h2{
-    color:white;
+.quotes {
 }
 .jumbotron .lead {
     color: #f2f0f0;
@@ -179,7 +170,6 @@ width: 100px;
 }
 
 .btn--red {
-    color: white;
     background-color: peru;
     border-color: peru;
 }
@@ -190,7 +180,6 @@ width: 100px;
 .btn--red:active:focus {
     background-color:purple;
     border-color: purple;
-    color: white;
 }
 /* Page Headers */
 
@@ -200,6 +189,6 @@ width: 100px;
     text-align: center;
 }
 
-.page-header h2 {
+.page-header  {
     margin-top: 0;
 }
